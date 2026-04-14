@@ -1,0 +1,15 @@
+{
+  "name": "neon-postgres",
+  "version": "1.0.0",
+  "description": "MCP server for Neon Serverless Postgres - database creation, branching, and SQL execution",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "neon-postgres-mcp": "dist/index.js" },
+  "scripts": { "build": "tsc", "prepare": "npm run build" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" },
+  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.0.0" },
+  "keywords": ["mcp", "neon", "postgres", "database", "serverless"],
+  "author": "Yennefer Protocol",
+  "license": "MIT",
+  "hash": "0x95e87c129ceedcd95379fdce15fce2136dd271b9a6983fb1fa2399953e3f3c36"
+}

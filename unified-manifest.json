@@ -1,0 +1,97 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-04-14T20:00:00Z",
+  "publisher": "Genesis Conductor + Yennefer Protocol",
+  "skills": [
+    {
+      "id": "apple-toolchain",
+      "version": "1.0.1",
+      "source": "genesis-conductor",
+      "registry_status": {
+        "smithery": "published",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/apple-toolchain-mcp"
+    },
+    {
+      "id": "contract-deployer",
+      "version": "1.0.1",
+      "source": "genesis-conductor",
+      "registry_status": {
+        "smithery": "pending",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/contract-deployer-mcp"
+    },
+    {
+      "id": "defi-arbitrage",
+      "version": "1.0.1",
+      "source": "genesis-conductor",
+      "registry_status": {
+        "smithery": "pending",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/defi-arbitrage-mcp"
+    },
+    {
+      "id": "keeper-manager",
+      "version": "1.1.0",
+      "source": "genesis-conductor",
+      "registry_status": {
+        "smithery": "pending",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/keeper-manager-mcp"
+    },
+    {
+      "id": "temporal-cloud",
+      "version": "1.28.0",
+      "hash": "0x666cade7cd2576fa14b5ce9ddef92e4ac9c2a50fe98ae86f9faf7319f53d9424",
+      "source": "yennefer-protocol",
+      "registry_status": {
+        "yennefer": "active",
+        "smithery": "pending",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/temporal-cloud-mcp",
+      "networks": {
+        "polygon-amoy": { "contract": "0xdd17ef03791fd9735dc536e2e78fb4c60c7bef1e", "status": "active" }
+      }
+    },
+    {
+      "id": "neon-postgres",
+      "version": "1.0.0",
+      "hash": "0x95e87c129ceedcd95379fdce15fce2136dd271b9a6983fb1fa2399953e3f3c36",
+      "source": "yennefer-protocol",
+      "registry_status": {
+        "yennefer": "active",
+        "smithery": "pending",
+        "glama": "auto-indexing",
+        "mcp_so": "pending"
+      },
+      "github_url": "https://github.com/igor-holt/mcp-servers/tree/main/neon-postgres-mcp",
+      "networks": {
+        "polygon-amoy": { "contract": "0xdd17ef03791fd9735dc536e2e78fb4c60c7bef1e", "status": "active" }
+      }
+    }
+  ],
+  "total_skills": 6,
+  "sources": {
+    "genesis-conductor": 4,
+    "yennefer-protocol": 2
+  },
+  "revenue": {
+    "treasury": "0x3E97190CddC508778BdE37E52005f8Da7F4D476F",
+    "fee_rate": "5%",
+    "distribution": {
+      "operational": "30%",
+      "reserve": "50%",
+      "staking": "20%"
+    }
+  }
+}

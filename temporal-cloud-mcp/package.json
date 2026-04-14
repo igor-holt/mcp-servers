@@ -1,0 +1,15 @@
+{
+  "name": "temporal-cloud",
+  "version": "1.28.0",
+  "description": "MCP server for Temporal Cloud workflow orchestration - autonomous agent coordination",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "temporal-cloud-mcp": "dist/index.js" },
+  "scripts": { "build": "tsc", "prepare": "npm run build" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" },
+  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.0.0" },
+  "keywords": ["mcp", "temporal", "workflow", "orchestration", "ai-agent"],
+  "author": "Yennefer Protocol",
+  "license": "MIT",
+  "hash": "0x666cade7cd2576fa14b5ce9ddef92e4ac9c2a50fe98ae86f9faf7319f53d9424"
+}
