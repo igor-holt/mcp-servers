@@ -1,0 +1,47 @@
+{
+  "publisher": "genesis-conductor",
+  "name": "genesis-mcp-suite",
+  "version": "1.0.0",
+  "description": "Revenue-generating MCP server suite for DeFi, smart contracts, and Apple toolchain operations",
+  "servers": [
+    {
+      "id": "apple-toolchain",
+      "path": "apple-toolchain-mcp",
+      "version": "1.0.1",
+      "registries": ["smithery", "glama", "mcp-so"]
+    },
+    {
+      "id": "contract-deployer",
+      "path": "contract-deployer-mcp",
+      "version": "1.0.1",
+      "registries": ["smithery", "glama", "mcp-so"]
+    },
+    {
+      "id": "defi-arbitrage",
+      "path": "defi-arbitrage-mcp",
+      "version": "1.0.1",
+      "registries": ["smithery", "glama", "mcp-so"]
+    },
+    {
+      "id": "keeper-manager",
+      "path": "keeper-manager-mcp",
+      "version": "1.1.0",
+      "registries": ["smithery", "glama", "mcp-so"]
+    }
+  ],
+  "revenue": {
+    "treasury_wallet": "0x3E97190CddC508778BdE37E52005f8Da7F4D476F",
+    "fee_rate": "5%",
+    "distribution": {
+      "operational": "30%",
+      "reserve": "50%",
+      "staking": "20%"
+    }
+  },
+  "author": {
+    "name": "Genesis Conductor",
+    "organization": "Kovach Enterprises",
+    "principal_investigator": "Igor Holt"
+  },
+  "license": "MIT"
+}

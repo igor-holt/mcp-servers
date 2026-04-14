@@ -1,0 +1,19 @@
+[project]
+name = "defi-arbitrage-mcp"
+version = "1.0.1"
+description = "MCP server for DeFi arbitrage bot - scan DEXs for price inefficiencies with flash loan execution"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.9.2",
+    "web3>=6.0.0",
+]
+
+[project.scripts]
+defi-arbitrage-mcp = "defi_arbitrage_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

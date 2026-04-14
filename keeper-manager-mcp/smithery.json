@@ -1,0 +1,11 @@
+{
+  "name": "keeper-manager",
+  "version": "1.1.0",
+  "description": "MCP server for Aave V4 eMode liquidation keeper - auto-snipe undercollateralized positions on Base",
+  "repository": {"type": "git", "url": "https://github.com/openclaw/mcp-servers"},
+  "keywords": ["mcp", "defi", "keeper", "liquidation", "aave", "v4-emode", "base"],
+  "author": "Genesis Conductor",
+  "license": "MIT",
+  "runtime": "python",
+  "tools": ["monitor_health_factors", "calculate_liquidation", "execute_liquidation", "get_keeper_status"]
+}

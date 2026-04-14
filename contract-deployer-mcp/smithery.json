@@ -1,0 +1,11 @@
+{
+  "name": "contract-deployer",
+  "version": "1.0.1",
+  "description": "MCP server for deploying and verifying Solidity smart contracts on EVM chains",
+  "repository": {"type": "git", "url": "https://github.com/openclaw/mcp-servers"},
+  "keywords": ["mcp", "solidity", "smart-contracts", "deployment", "evm", "blockchain"],
+  "author": "Genesis Conductor",
+  "license": "MIT",
+  "runtime": "python",
+  "tools": ["compile_contract", "deploy_contract", "verify_contract", "estimate_gas", "get_chain_info"]
+}
