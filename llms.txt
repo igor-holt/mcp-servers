@@ -1,0 +1,33 @@
+# Genesis Conductor MCP Servers
+
+> Revenue-generating AI agent skills for DeFi, smart contracts, and Apple toolchain.
+> Part of the Genesis Conductor ecosystem by Igor Holt.
+
+## What are MCP Servers?
+Model Context Protocol (MCP) servers that provide tools for AI agents to interact
+with external systems. These servers enable AI agents to execute real-world actions.
+
+## Available Servers
+- DeFi integration tools
+- Smart contract deployment
+- Apple toolchain automation
+- Revenue generation capabilities
+
+## Integration
+Compatible with:
+- Claude Desktop
+- ChatGPT (via Actions)
+- Cursor IDE
+- Gemini CLI
+- Codex CLI
+- Any MCP-compatible client
+
+## Related Projects
+- [Genesis Conductor](https://github.com/Genesis-Conductor-Engine/Genesis-Conductor): Main engine
+- [Ambient Access Layer](https://optimization-inversion.genesisconductor.io): Live API
+- [Kiro Powers](https://github.com/Genesis-Conductor-Engine/genesis-conductor-powers): Extensions
+
+## Creator
+Igor Holt — AI Architect
+https://github.com/igor-holt
+https://genesisconductor.io
